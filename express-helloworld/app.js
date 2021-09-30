@@ -6,6 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mars', function (req, res) {
+  console.log("Mars entrypoint called")
   res.send('Hello Mars!\n');
 });
 
